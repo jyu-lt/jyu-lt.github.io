@@ -1,0 +1,935 @@
+[
+  {
+    "name": "fb-1",
+    "profileImage": "https://mfe-onboarding.production.linktr.ee/images/pfp1.529f81ce98557ff9cb81.webp",
+    "profileName": "Margaret Loran",
+    "bio": "Makeup artist and content creator",
+    "appearanceConfiguration": {
+      "themeKey": "custom",
+      "luminance": "LIGHT",
+      "backgroundColor": "#A1C9D1",
+      "backgroundStyle": "COLORDOWN",
+      "backgroundType": "GRADIENT",
+      "buttonColor": "#FFFFFF",
+      "buttonTextColor": "#383A36",
+      "buttonShadowColor": "#000000",
+      "buttonType": "SOFTSHADOW_CIRCULAR",
+      "fontColour": "#383A36",
+      "fontFamily": "dm sans"
+    },
+    "templateFields": [
+      {
+        "defaultLink": {
+          "title": "Youtube Channel",
+          "url": "https://www.youtube.com/@linktreeapp",
+          "type": "YOUTUBE_CHANNEL"
+        },
+        "layoutOption": "stack",
+        "linkFieldConfig": {
+          "name": "youtube",
+          "logoUrl": "https://mfe-onboarding.production.linktr.ee/images/youtube.f0e875f6fe8a1f39d829.svg",
+          "fieldLabel": "YouTube URL",
+          "fieldValidationCopy": "Enter a valid YouTube URL",
+          "patterns": [
+            {
+              "regex": {}
+            },
+            {
+              "regex": {}
+            }
+          ]
+        }
+      },
+      {
+        "defaultLink": {
+          "title": "Storefront",
+          "url": "https://www.amazon.com/shop/linktr.ee",
+          "type": "CLASSIC"
+        },
+        "layoutOption": "stack",
+        "linkFieldConfig": {
+          "name": "store",
+          "logoUrl": "https://mfe-onboarding.production.linktr.ee/images/store.5ddc313e1929c7ab5e4d.svg",
+          "fieldLabel": "Store URL",
+          "fieldValidationCopy": "Enter a valid URL",
+          "patterns": [
+            {
+              "regex": {}
+            }
+          ]
+        }
+      },
+      {
+        "defaultLink": {
+          "title": "Shop my look",
+          "url": "https://example.com",
+          "type": "CLASSIC"
+        },
+        "layoutOption": "stack",
+        "linkFieldConfig": {
+          "name": "classic-default",
+          "logoUrl": "https://mfe-onboarding.production.linktr.ee/images/default.84ebea636b953c0e8585.svg",
+          "fieldLabel": "Enter any URL",
+          "fieldValidationCopy": "Enter a valid URL",
+          "patterns": [
+            {
+              "regex": {}
+            }
+          ]
+        }
+      },
+      {
+        "defaultLink": {
+          "title": "Instagram",
+          "url": "https://www.instagram.com/linktr.ee/",
+          "type": "CLASSIC"
+        },
+        "layoutOption": "stack",
+        "linkFieldConfig": {
+          "name": "instagram",
+          "logoUrl": "https://mfe-onboarding.production.linktr.ee/images/instagram.3e4c6742d2d3ce0e62e0.svg",
+          "fieldLabel": "Instagram username or URL",
+          "fieldValidationCopy": "Enter a valid Instagram URL or username",
+          "patterns": [
+            {
+              "regex": {}
+            },
+            {
+              "regex": {}
+            }
+          ]
+        }
+      }
+    ],
+    "mobileBackgroundGradient": "bg-[linear-gradient(to_top,rgba(114,171,182,1)_0%,rgba(183,220,227,1)_50%,rgba(243,243,241,1)_100%)]",
+    "backgroundGradient": "bg-[radial-gradient(circle_at_bottom_right,rgba(114,171,182,1)_0%,rgba(183,220,227,1)_50%,rgba(243,243,241,1)_100%)]",
+    "forVerticals": [
+      [
+        "fashion-&-beauty"
+      ],
+      "default"
+    ]
+  },
+  {
+    "name": "fb-2",
+    "profileImage": "https://mfe-onboarding.production.linktr.ee/images/pfp2.135abb86a5b7094dad0f.webp",
+    "profileName": "indimontana",
+    "bio": "Fashion influencer",
+    "appearanceConfiguration": {
+      "themeKey": "custom",
+      "luminance": "LIGHT",
+      "backgroundColor": "#FADDF2",
+      "backgroundStyle": "FLAT",
+      "backgroundType": "COLOR",
+      "buttonColor": "#F4AED1",
+      "buttonTextColor": "#0D1A15",
+      "buttonShadowColor": "#000000",
+      "buttonType": "SOFTSHADOW_ROUNDED",
+      "fontColour": "#0D1A15",
+      "fontFamily": "dm sans"
+    },
+    "templateFields": [
+      {
+        "defaultLink": {
+          "title": "Storefront",
+          "url": "https://amazon.com/shop/linktr.ee",
+          "type": "CLASSIC"
+        },
+        "layoutOption": "stack",
+        "linkFieldConfig": {
+          "name": "store",
+          "logoUrl": "https://mfe-onboarding.production.linktr.ee/images/store.5ddc313e1929c7ab5e4d.svg",
+          "fieldLabel": "Store URL",
+          "fieldValidationCopy": "Enter a valid URL",
+          "patterns": [
+            {
+              "regex": {}
+            }
+          ]
+        }
+      },
+      {
+        "defaultLink": {
+          "title": "My latest Youtube video",
+          "url": "https://www.youtube.com/watch?v=Bmgo88Rw-Y8",
+          "type": "YOUTUBE_VIDEO",
+          "thumbnailUrl": "https://mfe-onboarding.production.linktr.ee/images/feat.66f56a0f195e98dff44d.webp"
+        },
+        "layoutOption": "featured",
+        "linkFieldConfig": {
+          "name": "youtube",
+          "logoUrl": "https://mfe-onboarding.production.linktr.ee/images/youtube.f0e875f6fe8a1f39d829.svg",
+          "fieldLabel": "YouTube URL",
+          "fieldValidationCopy": "Enter a valid YouTube URL",
+          "patterns": [
+            {
+              "regex": {}
+            },
+            {
+              "regex": {}
+            }
+          ]
+        }
+      },
+      {
+        "defaultLink": {
+          "title": "Check out my Instagram",
+          "url": "https://www.instagram.com/linktr.ee/",
+          "type": "CLASSIC"
+        },
+        "layoutOption": "stack",
+        "linkFieldConfig": {
+          "name": "instagram",
+          "logoUrl": "https://mfe-onboarding.production.linktr.ee/images/instagram.3e4c6742d2d3ce0e62e0.svg",
+          "fieldLabel": "Instagram username or URL",
+          "fieldValidationCopy": "Enter a valid Instagram URL or username",
+          "patterns": [
+            {
+              "regex": {}
+            },
+            {
+              "regex": {}
+            }
+          ]
+        }
+      },
+      {
+        "defaultLink": {
+          "title": "Find me on TikTok",
+          "url": "https://www.tiktok.com/@linktr.ee",
+          "type": "CLASSIC"
+        },
+        "layoutOption": "stack",
+        "linkFieldConfig": {
+          "name": "tiktok",
+          "logoUrl": "https://mfe-onboarding.production.linktr.ee/images/tiktok.09876641a1eaf8dff6e9.svg",
+          "fieldLabel": "TikTok username or URL",
+          "fieldValidationCopy": "Enter a valid TikTok URL",
+          "patterns": [
+            {
+              "regex": {}
+            },
+            {
+              "regex": {}
+            },
+            {
+              "regex": {}
+            },
+            {
+              "regex": {}
+            },
+            {
+              "regex": {}
+            }
+          ]
+        }
+      }
+    ],
+    "mobileBackgroundGradient": "bg-[linear-gradient(to_top,rgba(227,114,171,1)_0%,rgba(255,234,243,1)_50%,rgba(243,243,241,1)_100%)]",
+    "backgroundGradient": "bg-[radial-gradient(circle_at_bottom_right,rgba(227,114,171,1)_0%,rgba(255,234,243,1)_50%,rgba(243,243,241,1)_100%)]",
+    "forVerticals": [
+      [
+        "fashion-&-beauty"
+      ],
+      "default"
+    ]
+  },
+  {
+    "name": "fb-3",
+    "profileImage": "https://mfe-onboarding.production.linktr.ee/images/pfp3.f9269f2a53cd4b9526e5.webp",
+    "profileName": "Avery Clothing",
+    "appearanceConfiguration": {
+      "themeKey": "custom",
+      "luminance": "DARK",
+      "backgroundColor": "#000000",
+      "backgroundStyle": "FLAT",
+      "backgroundType": "COLOR",
+      "buttonColor": "#888888",
+      "buttonTextColor": "#ffffff",
+      "buttonShadowColor": "#ffffff",
+      "buttonType": "FILL",
+      "fontColour": "#ffffff",
+      "fontFamily": "dm sans"
+    },
+    "templateFields": [
+      {
+        "defaultLink": {
+          "title": "Official Website",
+          "url": "https://example.com",
+          "type": "CLASSIC"
+        },
+        "layoutOption": "stack",
+        "linkFieldConfig": {
+          "name": "store",
+          "logoUrl": "https://mfe-onboarding.production.linktr.ee/images/store.5ddc313e1929c7ab5e4d.svg",
+          "fieldLabel": "Store URL",
+          "fieldValidationCopy": "Enter a valid URL",
+          "patterns": [
+            {
+              "regex": {}
+            }
+          ]
+        }
+      },
+      {
+        "defaultLink": {
+          "title": "Avery on Youtube",
+          "url": "https://www.youtube.com/@linktreeapp",
+          "type": "YOUTUBE_CHANNEL",
+          "thumbnailUrl": "https://mfe-onboarding.production.linktr.ee/images/feat1.9164048593477f84ba90.webp"
+        },
+        "layoutOption": "featured",
+        "linkFieldConfig": {
+          "name": "youtube",
+          "logoUrl": "https://mfe-onboarding.production.linktr.ee/images/youtube.f0e875f6fe8a1f39d829.svg",
+          "fieldLabel": "YouTube URL",
+          "fieldValidationCopy": "Enter a valid YouTube URL",
+          "patterns": [
+            {
+              "regex": {}
+            },
+            {
+              "regex": {}
+            }
+          ]
+        }
+      },
+      {
+        "defaultLink": {
+          "title": "Shop new arrivals",
+          "url": "https://example.com",
+          "type": "CLASSIC",
+          "thumbnailUrl": "https://mfe-onboarding.production.linktr.ee/images/feat2.928fe7636ff6cb52cc73.webp"
+        },
+        "layoutOption": "featured",
+        "linkFieldConfig": {
+          "name": "store",
+          "logoUrl": "https://mfe-onboarding.production.linktr.ee/images/store.5ddc313e1929c7ab5e4d.svg",
+          "fieldLabel": "Store URL",
+          "fieldValidationCopy": "Enter a valid URL",
+          "patterns": [
+            {
+              "regex": {}
+            }
+          ]
+        }
+      },
+      {
+        "defaultLink": {
+          "title": "Our Spotify Playlist",
+          "url": "https://open.spotify.com/playlist/4JfkYdXs6tq9mrJRLCe32Z",
+          "type": "SPOTIFY_PLAYLIST"
+        },
+        "layoutOption": "stack",
+        "linkFieldConfig": {
+          "name": "spotify",
+          "logoUrl": "https://mfe-onboarding.production.linktr.ee/images/spotify.f6a62e3d468e9b243f4d.svg",
+          "fieldLabel": "Spotify URL",
+          "fieldValidationCopy": "Enter a valid Spotify URL",
+          "patterns": [
+            {
+              "regex": {}
+            },
+            {
+              "regex": {}
+            },
+            {
+              "regex": {}
+            },
+            {
+              "regex": {}
+            },
+            {
+              "regex": {}
+            }
+          ]
+        }
+      }
+    ],
+    "mobileBackgroundGradient": "bg-[linear-gradient(to_top,rgba(64,69,72,1)_0%,rgba(114,121,126,1)_50%,rgba(243,243,241,1)_100%)]",
+    "backgroundGradient": "bg-[radial-gradient(circle_at_bottom_right,rgba(64,69,72,1)_0%,rgba(114,121,126,1)_50%,rgba(243,243,241,1)_100%)]",
+    "forVerticals": [
+      [
+        "fashion-&-beauty"
+      ],
+      "default"
+    ]
+  },
+  {
+    "name": "fb-4",
+    "profileImage": "https://mfe-onboarding.production.linktr.ee/images/pfp4.061c157adbaab9cafb8b.webp",
+    "profileName": "Noa Elmira",
+    "bio": "Fashion influencer",
+    "appearanceConfiguration": {
+      "themeKey": "lake-white",
+      "luminance": "LIGHT",
+      "backgroundColor": "#ffffff",
+      "backgroundStyle": "FLAT",
+      "backgroundType": "COLOR",
+      "buttonColor": "#ffffff",
+      "buttonTextColor": "#000000",
+      "buttonShadowColor": "#000000",
+      "buttonType": "FILL",
+      "fontColour": "#000000",
+      "fontFamily": "dm sans"
+    },
+    "templateFields": [
+      {
+        "defaultLink": {
+          "title": "My Store",
+          "url": "https://example.com",
+          "type": "CLASSIC"
+        },
+        "layoutOption": "stack",
+        "linkFieldConfig": {
+          "name": "store",
+          "logoUrl": "https://mfe-onboarding.production.linktr.ee/images/store.5ddc313e1929c7ab5e4d.svg",
+          "fieldLabel": "Store URL",
+          "fieldValidationCopy": "Enter a valid URL",
+          "patterns": [
+            {
+              "regex": {}
+            }
+          ]
+        }
+      },
+      {
+        "defaultLink": {
+          "title": "Top Selling Products",
+          "url": "https://example.com",
+          "type": "CLASSIC"
+        },
+        "layoutOption": "stack",
+        "linkFieldConfig": {
+          "name": "classic-default",
+          "logoUrl": "https://mfe-onboarding.production.linktr.ee/images/default.84ebea636b953c0e8585.svg",
+          "fieldLabel": "Enter any URL",
+          "fieldValidationCopy": "Enter a valid URL",
+          "patterns": [
+            {
+              "regex": {}
+            }
+          ]
+        }
+      },
+      {
+        "defaultLink": {
+          "title": "Instagram",
+          "url": "https://www.instagram.com/linktr.ee/",
+          "type": "CLASSIC"
+        },
+        "layoutOption": "stack",
+        "linkFieldConfig": {
+          "name": "instagram",
+          "logoUrl": "https://mfe-onboarding.production.linktr.ee/images/instagram.3e4c6742d2d3ce0e62e0.svg",
+          "fieldLabel": "Instagram username or URL",
+          "fieldValidationCopy": "Enter a valid Instagram URL or username",
+          "patterns": [
+            {
+              "regex": {}
+            },
+            {
+              "regex": {}
+            }
+          ]
+        }
+      },
+      {
+        "defaultLink": {
+          "title": "Website",
+          "url": "https://example.com",
+          "type": "CLASSIC"
+        },
+        "layoutOption": "stack",
+        "linkFieldConfig": {
+          "name": "classic-default",
+          "logoUrl": "https://mfe-onboarding.production.linktr.ee/images/default.84ebea636b953c0e8585.svg",
+          "fieldLabel": "Enter any URL",
+          "fieldValidationCopy": "Enter a valid URL",
+          "patterns": [
+            {
+              "regex": {}
+            }
+          ]
+        }
+      }
+    ],
+    "mobileBackgroundGradient": "bg-[linear-gradient(to_top,rgba(161,152,136,1)_0%,rgba(220,213,200,1)_50%,rgba(243,243,241,1)_100%)]",
+    "backgroundGradient": "bg-[radial-gradient(circle_at_bottom_right,rgba(161,152,136,1)_0%,rgba(220,213,200,1)_50%,rgba(243,243,241,1)_100%)]",
+    "forVerticals": [
+      [
+        "fashion-&-beauty"
+      ],
+      "default"
+    ]
+  },
+  {
+    "name": "fb-5",
+    "profileImage": "https://mfe-onboarding.production.linktr.ee/images/pfp5.2deb78b67b7e6e34a93f.webp",
+    "profileName": "newlove store",
+    "bio": "Vintage fashion store",
+    "appearanceConfiguration": {
+      "themeKey": "custom",
+      "luminance": "LIGHT",
+      "backgroundColor": "#FCEEBE",
+      "backgroundStyle": "FLAT",
+      "backgroundType": "COLOR",
+      "buttonColor": "#F6C04D",
+      "buttonTextColor": "#000000",
+      "buttonShadowColor": "#000000",
+      "buttonType": "SOFTSHADOW_ROUNDED",
+      "fontColour": "#000000",
+      "fontFamily": "dm sans"
+    },
+    "templateFields": [
+      {
+        "defaultLink": {
+          "title": "Our Website",
+          "url": "https://example.com",
+          "type": "CLASSIC"
+        },
+        "layoutOption": "stack",
+        "linkFieldConfig": {
+          "name": "classic-default",
+          "logoUrl": "https://mfe-onboarding.production.linktr.ee/images/default.84ebea636b953c0e8585.svg",
+          "fieldLabel": "Enter any URL",
+          "fieldValidationCopy": "Enter a valid URL",
+          "patterns": [
+            {
+              "regex": {}
+            }
+          ]
+        }
+      },
+      {
+        "defaultLink": {
+          "title": "Shop latest arrivals",
+          "url": "https://example.com",
+          "type": "CLASSIC",
+          "thumbnailUrl": "https://mfe-onboarding.production.linktr.ee/images/feat3.47798e48b833190a33df.webp"
+        },
+        "layoutOption": "featured",
+        "linkFieldConfig": {
+          "name": "store",
+          "logoUrl": "https://mfe-onboarding.production.linktr.ee/images/store.5ddc313e1929c7ab5e4d.svg",
+          "fieldLabel": "Store URL",
+          "fieldValidationCopy": "Enter a valid URL",
+          "patterns": [
+            {
+              "regex": {}
+            }
+          ]
+        }
+      },
+      {
+        "defaultLink": {
+          "title": "Instagram",
+          "url": "https://www.instagram.com/linktr.ee/",
+          "type": "CLASSIC"
+        },
+        "layoutOption": "stack",
+        "linkFieldConfig": {
+          "name": "instagram",
+          "logoUrl": "https://mfe-onboarding.production.linktr.ee/images/instagram.3e4c6742d2d3ce0e62e0.svg",
+          "fieldLabel": "Instagram username or URL",
+          "fieldValidationCopy": "Enter a valid Instagram URL or username",
+          "patterns": [
+            {
+              "regex": {}
+            },
+            {
+              "regex": {}
+            }
+          ]
+        }
+      },
+      {
+        "defaultLink": {
+          "title": "Youtube",
+          "url": "https://www.youtube.com/@linktreeapp",
+          "type": "YOUTUBE_CHANNEL"
+        },
+        "layoutOption": "stack",
+        "linkFieldConfig": {
+          "name": "youtube",
+          "logoUrl": "https://mfe-onboarding.production.linktr.ee/images/youtube.f0e875f6fe8a1f39d829.svg",
+          "fieldLabel": "YouTube URL",
+          "fieldValidationCopy": "Enter a valid YouTube URL",
+          "patterns": [
+            {
+              "regex": {}
+            },
+            {
+              "regex": {}
+            }
+          ]
+        }
+      }
+    ],
+    "mobileBackgroundGradient": "bg-[linear-gradient(to_top,rgba(241,180,50,1)_0%,rgba(255,208,106,1)_50%,rgba(243,243,241,1)_100%)]",
+    "backgroundGradient": "bg-[radial-gradient(circle_at_bottom_right,rgba(241,180,50,1)_0%,rgba(255,208,106,1)_50%,rgba(243,243,241,1)_100%)]",
+    "forVerticals": [
+      [
+        "fashion-&-beauty"
+      ],
+      "default"
+    ]
+  },
+  {
+    "name": "fb-6",
+    "profileImage": "https://mfe-onboarding.production.linktr.ee/images/pfp6.3cca59e3633010ce9f5a.webp",
+    "profileName": "Ariel J",
+    "bio": "Makeup artist & content creator",
+    "appearanceConfiguration": {
+      "themeKey": "mineral-orange",
+      "luminance": "LIGHT",
+      "backgroundColor": "#ffffff",
+      "backgroundStyle": "FLAT",
+      "backgroundType": "COLOR",
+      "buttonColor": "#ffffff",
+      "buttonTextColor": "#000000",
+      "buttonShadowColor": "#000000",
+      "buttonType": "FILL",
+      "fontColour": "#000000",
+      "fontFamily": "dm sans"
+    },
+    "templateFields": [
+      {
+        "defaultLink": {
+          "title": "My Website",
+          "url": "https://example.com",
+          "type": "CLASSIC"
+        },
+        "layoutOption": "stack",
+        "linkFieldConfig": {
+          "name": "classic-default",
+          "logoUrl": "https://mfe-onboarding.production.linktr.ee/images/default.84ebea636b953c0e8585.svg",
+          "fieldLabel": "Enter any URL",
+          "fieldValidationCopy": "Enter a valid URL",
+          "patterns": [
+            {
+              "regex": {}
+            }
+          ]
+        }
+      },
+      {
+        "defaultLink": {
+          "title": "Tutorial on Youtube",
+          "url": "https://www.youtube.com/watch?v=Bmgo88Rw-Y8",
+          "type": "YOUTUBE_VIDEO",
+          "thumbnailUrl": "https://mfe-onboarding.production.linktr.ee/images/feat6.58903712680720b292e0.webp"
+        },
+        "layoutOption": "featured",
+        "linkFieldConfig": {
+          "name": "youtube",
+          "logoUrl": "https://mfe-onboarding.production.linktr.ee/images/youtube.f0e875f6fe8a1f39d829.svg",
+          "fieldLabel": "YouTube URL",
+          "fieldValidationCopy": "Enter a valid YouTube URL",
+          "patterns": [
+            {
+              "regex": {}
+            },
+            {
+              "regex": {}
+            }
+          ]
+        }
+      },
+      {
+        "defaultLink": {
+          "title": "My Store",
+          "url": "https://example.com",
+          "type": "CLASSIC"
+        },
+        "layoutOption": "stack",
+        "linkFieldConfig": {
+          "name": "store",
+          "logoUrl": "https://mfe-onboarding.production.linktr.ee/images/store.5ddc313e1929c7ab5e4d.svg",
+          "fieldLabel": "Store URL",
+          "fieldValidationCopy": "Enter a valid URL",
+          "patterns": [
+            {
+              "regex": {}
+            }
+          ]
+        }
+      },
+      {
+        "defaultLink": {
+          "title": "Instagram",
+          "url": "https://www.instagram.com/linktr.ee/",
+          "type": "CLASSIC"
+        },
+        "layoutOption": "stack",
+        "linkFieldConfig": {
+          "name": "instagram",
+          "logoUrl": "https://mfe-onboarding.production.linktr.ee/images/instagram.3e4c6742d2d3ce0e62e0.svg",
+          "fieldLabel": "Instagram username or URL",
+          "fieldValidationCopy": "Enter a valid Instagram URL or username",
+          "patterns": [
+            {
+              "regex": {}
+            },
+            {
+              "regex": {}
+            }
+          ]
+        }
+      }
+    ],
+    "mobileBackgroundGradient": "bg-[linear-gradient(to_top,rgba(214,174,161,1)_0%,rgba(232,215,195,1)_50%,rgba(243,243,241,1)_100%)]",
+    "backgroundGradient": "bg-[radial-gradient(circle_at_bottom_right,rgba(214,174,161,1)_0%,rgba(232,215,195,1)_50%,rgba(243,243,241,1)_100%)]",
+    "forVerticals": [
+      [
+        "fashion-&-beauty"
+      ],
+      "default"
+    ]
+  },
+  {
+    "name": "fb-7",
+    "profileImage": "https://mfe-onboarding.production.linktr.ee/images/pfp7.cdb7370562fd37345b4d.webp",
+    "profileName": "Gettem Denim",
+    "bio": "Classic denim clothing",
+    "appearanceConfiguration": {
+      "themeKey": "custom",
+      "luminance": "LIGHT",
+      "backgroundColor": "#EAE8E4",
+      "backgroundStyle": "FLAT",
+      "backgroundType": "COLOR",
+      "buttonColor": "#70764D",
+      "buttonTextColor": "#FFFFFF",
+      "buttonShadowColor": "#000000",
+      "buttonType": "SOFTSHADOW_ROUNDED",
+      "fontColour": "#000000",
+      "fontFamily": "bitter"
+    },
+    "templateFields": [
+      {
+        "defaultLink": {
+          "title": "Shop latest arrivals",
+          "url": "https://example.com",
+          "type": "CLASSIC",
+          "thumbnailUrl": "https://mfe-onboarding.production.linktr.ee/images/feat4.c43fb65f8f62299af12e.webp"
+        },
+        "layoutOption": "featured",
+        "linkFieldConfig": {
+          "name": "classic-default",
+          "logoUrl": "https://mfe-onboarding.production.linktr.ee/images/default.84ebea636b953c0e8585.svg",
+          "fieldLabel": "Enter any URL",
+          "fieldValidationCopy": "Enter a valid URL",
+          "patterns": [
+            {
+              "regex": {}
+            }
+          ]
+        }
+      },
+      {
+        "defaultLink": {
+          "title": "TikTok",
+          "url": "https://www.tiktok.com/@linktr.ee",
+          "type": "CLASSIC"
+        },
+        "layoutOption": "stack",
+        "linkFieldConfig": {
+          "name": "tiktok",
+          "logoUrl": "https://mfe-onboarding.production.linktr.ee/images/tiktok.09876641a1eaf8dff6e9.svg",
+          "fieldLabel": "TikTok username or URL",
+          "fieldValidationCopy": "Enter a valid TikTok URL",
+          "patterns": [
+            {
+              "regex": {}
+            },
+            {
+              "regex": {}
+            },
+            {
+              "regex": {}
+            },
+            {
+              "regex": {}
+            },
+            {
+              "regex": {}
+            }
+          ]
+        }
+      },
+      {
+        "defaultLink": {
+          "title": "Our website",
+          "url": "https://example.com",
+          "type": "CLASSIC"
+        },
+        "layoutOption": "stack",
+        "linkFieldConfig": {
+          "name": "classic-default",
+          "logoUrl": "https://mfe-onboarding.production.linktr.ee/images/default.84ebea636b953c0e8585.svg",
+          "fieldLabel": "Enter any URL",
+          "fieldValidationCopy": "Enter a valid URL",
+          "patterns": [
+            {
+              "regex": {}
+            }
+          ]
+        }
+      },
+      {
+        "defaultLink": {
+          "title": "Instagram",
+          "url": "https://www.instagram.com/linktr.ee/",
+          "type": "CLASSIC"
+        },
+        "layoutOption": "stack",
+        "linkFieldConfig": {
+          "name": "instagram",
+          "logoUrl": "https://mfe-onboarding.production.linktr.ee/images/instagram.3e4c6742d2d3ce0e62e0.svg",
+          "fieldLabel": "Instagram username or URL",
+          "fieldValidationCopy": "Enter a valid Instagram URL or username",
+          "patterns": [
+            {
+              "regex": {}
+            },
+            {
+              "regex": {}
+            }
+          ]
+        }
+      }
+    ],
+    "mobileBackgroundGradient": "bg-[linear-gradient(to_top,rgba(129,134,101,1)_0%,rgba(201,203,184,1)_50%,rgba(243,243,241,1)_100%)]",
+    "backgroundGradient": "bg-[radial-gradient(circle_at_bottom_right,rgba(129,134,101,1)_0%,rgba(201,203,184,1)_50%,rgba(243,243,241,1)_100%)]",
+    "forVerticals": [
+      [
+        "fashion-&-beauty"
+      ],
+      "default"
+    ]
+  },
+  {
+    "name": "fb-8",
+    "profileImage": "https://mfe-onboarding.production.linktr.ee/images/pfp8.6ab3b56fd3a7cf76a871.webp",
+    "profileName": "Holly Clyde",
+    "bio": "👟 Heelies never went out of style 👟",
+    "appearanceConfiguration": {
+      "themeKey": "custom",
+      "luminance": "LIGHT",
+      "backgroundColor": "#82502E",
+      "backgroundStyle": "FLAT",
+      "backgroundType": "COLOR",
+      "buttonColor": "#FFFFFF",
+      "buttonTextColor": "#82502E",
+      "buttonShadowColor": "#000000",
+      "buttonType": "SOFTSHADOW_CIRCULAR",
+      "fontColour": "#FFFFFF",
+      "fontFamily": "arvo"
+    },
+    "templateFields": [
+      {
+        "defaultLink": {
+          "title": "Check out my Instagram!",
+          "url": "https://example.com",
+          "type": "CLASSIC"
+        },
+        "layoutOption": "stack",
+        "linkFieldConfig": {
+          "name": "instagram",
+          "logoUrl": "https://mfe-onboarding.production.linktr.ee/images/instagram.3e4c6742d2d3ce0e62e0.svg",
+          "fieldLabel": "Instagram username or URL",
+          "fieldValidationCopy": "Enter a valid Instagram URL or username",
+          "patterns": [
+            {
+              "regex": {}
+            },
+            {
+              "regex": {}
+            }
+          ]
+        }
+      },
+      {
+        "defaultLink": {
+          "title": "Online Store",
+          "url": "https://example.com",
+          "type": "CLASSIC",
+          "thumbnailUrl": "https://mfe-onboarding.production.linktr.ee/images/feat5.777f6082ff9f33e390fe.webp"
+        },
+        "layoutOption": "featured",
+        "linkFieldConfig": {
+          "name": "store",
+          "logoUrl": "https://mfe-onboarding.production.linktr.ee/images/store.5ddc313e1929c7ab5e4d.svg",
+          "fieldLabel": "Store URL",
+          "fieldValidationCopy": "Enter a valid URL",
+          "patterns": [
+            {
+              "regex": {}
+            }
+          ]
+        }
+      },
+      {
+        "defaultLink": {
+          "title": "Podcast",
+          "url": "https://example.com",
+          "type": "SPOTIFY_SHOW"
+        },
+        "layoutOption": "stack",
+        "linkFieldConfig": {
+          "name": "podcast",
+          "logoUrl": "https://mfe-onboarding.production.linktr.ee/images/podcast.f86226ac35d9e34593ca.svg",
+          "fieldLabel": "Podcast URL",
+          "fieldValidationCopy": "Enter a valid Apple or Spotify podcast URL",
+          "patterns": [
+            {
+              "regex": {}
+            },
+            {
+              "regex": {}
+            }
+          ]
+        }
+      },
+      {
+        "defaultLink": {
+          "title": "My Spotify",
+          "url": "https://example.com",
+          "type": "SPOTIFY_AMBIGUOUS"
+        },
+        "layoutOption": "stack",
+        "linkFieldConfig": {
+          "name": "spotify",
+          "logoUrl": "https://mfe-onboarding.production.linktr.ee/images/spotify.f6a62e3d468e9b243f4d.svg",
+          "fieldLabel": "Spotify URL",
+          "fieldValidationCopy": "Enter a valid Spotify URL",
+          "patterns": [
+            {
+              "regex": {}
+            },
+            {
+              "regex": {}
+            },
+            {
+              "regex": {}
+            },
+            {
+              "regex": {}
+            },
+            {
+              "regex": {}
+            }
+          ]
+        }
+      }
+    ],
+    "mobileBackgroundGradient": "bg-[linear-gradient(to_top,rgba(220,167,78,1)_0%,rgba(241,220,176,1)_50%,rgba(243,243,241,1)_100%)]",
+    "backgroundGradient": "bg-[radial-gradient(circle_at_bottom_right,rgba(220,167,78,1)_0%,rgba(241,220,176,1)_50%,rgba(243,243,241,1)_100%)]",
+    "forVerticals": [
+      [
+        "fashion-&-beauty"
+      ],
+      "default"
+    ]
+  }
+]
